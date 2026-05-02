@@ -25,26 +25,96 @@ Other products in development: Jarvis, Tymon, and a couple unannounced.
 
 ---
 
-## Engineering
+## Stack
 
-**Frontend** — Next.js 16 (Turbopack), React 19, TypeScript, Tailwind CSS 4, Framer Motion, TipTap, React Big Calendar, Base UI, React Native (Expo iOS + Android), onnxruntime-web (browser inference).
+### Languages
+<p>
+<img src="https://skillicons.dev/icons?i=ts,js,py,html,css,bash,sql" alt="Languages" />
+</p>
 
-**Backend** — Node.js, Python, Django, FastAPI, Supabase (Postgres + Auth SSR + RLS + Storage + Realtime), Firebase, MongoDB, Prisma, n8n.
+### Frontend
+<p>
+<img src="https://skillicons.dev/icons?i=nextjs,react,tailwind,html,css" alt="Frontend frameworks" />
+<img src="https://img.shields.io/badge/React_19-149ECA?style=for-the-badge&logo=react&logoColor=white" />
+<img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white" />
+<img src="https://img.shields.io/badge/TipTap-000000?style=for-the-badge&logo=tiptap&logoColor=white" />
+</p>
 
-**Infra & ops** — Vercel, Cloudflare (Workers, R2, KV, D1), Docker, AWS (S3, EC2), GCP, Sentry, Resend, Stripe, GitHub Actions.
+### Mobile
+<p>
+<img src="https://skillicons.dev/icons?i=react" alt="React Native" />
+<img src="https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white" />
+<img src="https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=apple&logoColor=white" />
+<img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
+</p>
 
-**AI** — Anthropic Claude (Opus / Sonnet / Haiku), Google Gemini, OpenAI, Ollama (self-hosted), multi-provider routing with fallback, BYOK pass-through for clients.
+### Backend
+<p>
+<img src="https://skillicons.dev/icons?i=nodejs,django,fastapi,flask" alt="Backend" />
+<img src="https://img.shields.io/badge/Server_Actions-000000?style=for-the-badge&logo=next.js&logoColor=white" />
+<img src="https://img.shields.io/badge/Edge_Middleware-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+<img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" />
+</p>
 
-**Practices** — server-driven architecture, RLS-first data modeling, semantic versioning with strict change logs, idempotent migrations, observability from day one, agentic CI (Red Team / Blue Team review on every push).
+### Databases & ORM
+<p>
+<img src="https://skillicons.dev/icons?i=postgres,mongodb,supabase,firebase,prisma,redis" alt="Databases" />
+</p>
+
+### AI & ML
+<p>
+<img src="https://img.shields.io/badge/Anthropic_Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white" />
+<img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" />
+<img src="https://img.shields.io/badge/Google_Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white" />
+<img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white" />
+<img src="https://img.shields.io/badge/ONNX_Runtime-005CED?style=for-the-badge&logo=onnx&logoColor=white" />
+<img src="https://skillicons.dev/icons?i=tensorflow,pytorch" alt="ML" />
+</p>
+
+### Payments & Comms
+<p>
+<img src="https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white" />
+<img src="https://img.shields.io/badge/Resend-000000?style=for-the-badge&logo=resend&logoColor=white" />
+<img src="https://img.shields.io/badge/Twilio-F22F46?style=for-the-badge&logo=twilio&logoColor=white" />
+<img src="https://img.shields.io/badge/WhatsApp_Business-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+</p>
+
+### Infra & DevOps
+<p>
+<img src="https://skillicons.dev/icons?i=vercel,cloudflare,docker,aws,gcp,githubactions,nginx,linux" alt="Infra" />
+<img src="https://img.shields.io/badge/Sentry-362D59?style=for-the-badge&logo=sentry&logoColor=white" />
+</p>
+
+### Tools
+<p>
+<img src="https://skillicons.dev/icons?i=vscode,figma,git,github,postman,notion" alt="Tools" />
+<img src="https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white" />
+</p>
 
 ---
 
-## Stats
+## Engineering practices
 
-<a href="https://github.com/M4teo001">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=M4teo001&show_icons=true&hide_border=true&include_all_commits=true&count_private=true" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=M4teo001&layout=compact&hide_border=true&count_private=true&langs_count=10" />
-</a>
+- **Server-driven architecture** — heavy use of Server Components, Server Actions, and Edge Middleware
+- **RLS-first data modeling** — every table has Row Level Security; service role is reserved for audited server actions only
+- **Idempotent migrations** — every SQL change is versioned and safe to re-run
+- **Semantic versioning** — every working session ends with a structured changelog and a version bump
+- **Multi-provider AI routing** — Claude / Gemini / OpenAI / Ollama with fallback; BYOK pass-through for clients
+- **Agentic CI** — Red Team / Blue Team agents review every push; tickets are auto-created from incidents
+- **Observability from day one** — Sentry on every project, with auto-ticket creation from webhooks
+
+---
+
+## GitHub stats
+
+<p>
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=M4teo001&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=M4teo001&layout=compact&hide_border=true&count_private=true&langs_count=10" />
+</p>
+
+<p>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=M4teo001&hide_border=true" />
+</p>
 
 > Most repositories are private (client work and proprietary product code). The pinned repositories are public showcases of the products listed above.
 
@@ -52,7 +122,9 @@ Other products in development: Jarvis, Tymon, and a couple unannounced.
 
 ## Get in touch
 
-- **Web** — [nuvnext.com](https://nuvnext.com)
-- **Email** — servicio@nuvnext.com
+<p>
+<a href="https://nuvnext.com"><img src="https://img.shields.io/badge/Web-nuvnext.com-0c0c0c?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
+<a href="mailto:servicio@nuvnext.com"><img src="https://img.shields.io/badge/Email-servicio@nuvnext.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+</p>
 
 For partnerships, technical advisory, or to talk about products — reach out.
