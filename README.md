@@ -124,3 +124,5 @@ The trade-off is straightforward: every product decision goes through me, with z
 </p>
 
 For partnerships, technical advisory, or to talk about products — reach out.
+
+<!-- profile-readme-trigger -->
