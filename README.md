@@ -1,4 +1,4 @@
-# Mateo Ramírez
+# Hi there, I'm Mateo Ramírez
 
 **Founder of [Nuvnext](https://nuvnext.com)** — an AI-native product studio.
 
