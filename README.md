@@ -1,8 +1,8 @@
 # Mateo Ramírez
 
-**Founder & Full-Stack Engineer** — building production SaaS end-to-end at [**Nuvnext**](https://nuvnext.com).
+**Founder of [Nuvnext](https://nuvnext.com)** — an AI-native product studio.
 
-I run a small studio that designs, ships, and operates digital products across SaaS, fintech, restaurant tech, sports management, real estate, and AI agents. I write most of the code, lead the architecture, and take products from blank Figma to production.
+We design, ship, and operate digital products across SaaS, fintech, restaurant tech, sports management, real estate, and AI agents. The studio is small and AI-augmented by design: I lead product, architecture, and direction; code execution runs through Claude Code and a curated AI tool stack. We go from idea to production in days, not months.
 
 > Currently shipping: AI outreach agents, private proposal portals with email-gate, and a multi-tenant social media engine.
 
@@ -25,7 +25,20 @@ Other products in development: Jarvis, Tymon, and a couple unannounced.
 
 ---
 
-## Stack
+## How we build
+
+This isn't a ten-engineer team. It's a small operation, AI-native by design:
+
+- **Product, design, architecture, direction** — me
+- **Code execution** — Claude Code (Opus 4.7) + Cursor + multi-provider LLM routing
+- **Review on every push** — Red Team / Blue Team agents that audit security and quality
+- **Operations** — internal ERP we built for ourselves (Nuvnext Web)
+
+The trade-off is straightforward: every product decision goes through me, with zero coordination overhead. We ship fast because there is no committee. This model isn't for everyone, and we don't pretend it is — but if you want polished software shipped on a tight timeline, this is what works.
+
+---
+
+## Stack we ship on
 
 ### Languages
 <p>
@@ -56,22 +69,22 @@ Other products in development: Jarvis, Tymon, and a couple unannounced.
 <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" />
 </p>
 
-### Databases & ORM
+### Databases
 <p>
 <img src="https://skillicons.dev/icons?i=postgres,mongodb,supabase,firebase,prisma,redis" alt="Databases" />
 </p>
 
-### AI & ML
+### AI tooling
 <p>
-<img src="https://img.shields.io/badge/Anthropic_Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white" />
+<img src="https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white" />
+<img src="https://img.shields.io/badge/Anthropic_API-D97757?style=for-the-badge&logo=anthropic&logoColor=white" />
 <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" />
 <img src="https://img.shields.io/badge/Google_Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white" />
 <img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white" />
-<img src="https://img.shields.io/badge/ONNX_Runtime-005CED?style=for-the-badge&logo=onnx&logoColor=white" />
-<img src="https://skillicons.dev/icons?i=tensorflow,pytorch" alt="ML" />
+<img src="https://img.shields.io/badge/Cursor-000000?style=for-the-badge&logo=cursor&logoColor=white" />
 </p>
 
-### Payments & Comms
+### Payments & comms
 <p>
 <img src="https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white" />
 <img src="https://img.shields.io/badge/Resend-000000?style=for-the-badge&logo=resend&logoColor=white" />
@@ -88,20 +101,7 @@ Other products in development: Jarvis, Tymon, and a couple unannounced.
 ### Tools
 <p>
 <img src="https://skillicons.dev/icons?i=vscode,figma,git,github,postman,notion" alt="Tools" />
-<img src="https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white" />
 </p>
-
----
-
-## Engineering practices
-
-- **Server-driven architecture** — heavy use of Server Components, Server Actions, and Edge Middleware
-- **RLS-first data modeling** — every table has Row Level Security; service role is reserved for audited server actions only
-- **Idempotent migrations** — every SQL change is versioned and safe to re-run
-- **Semantic versioning** — every working session ends with a structured changelog and a version bump
-- **Multi-provider AI routing** — Claude / Gemini / OpenAI / Ollama with fallback; BYOK pass-through for clients
-- **Agentic CI** — Red Team / Blue Team agents review every push; tickets are auto-created from incidents
-- **Observability from day one** — Sentry on every project, with auto-ticket creation from webhooks
 
 ---
 
@@ -110,10 +110,6 @@ Other products in development: Jarvis, Tymon, and a couple unannounced.
 <p>
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=M4teo001&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github" />
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=M4teo001&layout=compact&hide_border=true&count_private=true&langs_count=10" />
-</p>
-
-<p>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=M4teo001&hide_border=true" />
 </p>
 
 > Most repositories are private (client work and proprietary product code). The pinned repositories are public showcases of the products listed above.
