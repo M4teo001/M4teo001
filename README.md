@@ -14,7 +14,7 @@ We design, ship, and operate digital products across SaaS, fintech, restaurant t
 |---|---|
 | **[Nuvnext](https://nuvnext.com)** — studio + internal ERP (agenda, HR, finance, tickets, training, social media, private proposals, hiring, AI agents, community & investor portals) | Next.js 16 · React 19 · TypeScript · Supabase · Stripe · Sentry · Resend |
 | **[Ristochain · ONTable](https://github.com/M4teo001/ristochain-showcase)** — operating system for restaurant groups (menu, reservations, POS, delivery, kitchen, butchery, HR) | Next.js · TypeScript · PostgreSQL |
-| **[Sportiq](https://github.com/M4teo001/sportiq-showcase)** — multi-tenant system for sports clubs (members, reservations, billing, mobile app) | Next.js · Supabase · Expo |
+| **[SportIQ](https://github.com/M4teo001/sportiq-showcase)** — multi-tenant system for sports clubs (members, reservations, billing, mobile app) | Next.js · Supabase · Expo |
 | **[Abarrotech](https://github.com/M4teo001/abarrotech-showcase)** — operations SaaS + embedded fintech + supplier marketplace for grocery stores | Next.js · TypeScript · Expo |
 | **[Objetivapp](https://github.com/M4teo001/objetivapp-showcase)** — real estate portfolio and commission management | Next.js · TypeScript · Expo |
 | **[Leadera](https://github.com/M4teo001/leadera-showcase)** — AI-native digital sales agent for B2B verticals | Next.js · TypeScript · Claude API |
