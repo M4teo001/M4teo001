@@ -1,6 +1,6 @@
 # Mateo Ramírez
 
-**Founder of [Nuvnext Technologies](https://nuvnext.com)** — we take companies into agentic operation.
+**Founder of [Nuvnext AI|Studios](https://nuvnext.com)** — we take companies into agentic operation.
 
 Not "we sell you an AI tool." We build the system your company runs on, with agents doing the work inside it. Based in Mexico, shipping to Mexican SMEs and mid-market.
 
