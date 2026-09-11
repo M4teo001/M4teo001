@@ -18,18 +18,6 @@ Every engagement starts with a paid diagnostic. No deposit at signature — we i
 
 ---
 
-## Products
-
-| | |
-|---|---|
-| **Leadera** | AI sales agent for B2B verticals — qualifies, follows up, and hands off warm |
-| **SportIQ** | Multi-tenant platform for sports clubs: members, reservations, billing, mobile |
-| **Abarrotech** | Operations SaaS + embedded fintech for grocery retail |
-
-Sources are private. Live products at [nuvnext.com](https://nuvnext.com).
-
----
-
 ## Research
 
 Public, peer-citable, and not for sale — [nuvnext.com/tesis](https://nuvnext.com/tesis).
@@ -51,13 +39,6 @@ A small operation, AI-native by design — and specific about what that means:
 - **Operations** — we run on the same platform we sell
 
 The trade-off is honest: every decision goes through one person, so there is no coordination overhead and no committee. That is why we ship in days. It also means we take on work that fits that shape, and say so when it doesn't.
-
----
-
-## Stack
-
-`TypeScript` · `Next.js` · `React` · `Tailwind` · `Supabase` / `PostgreSQL` · `Expo`
-`Claude API` · `Anthropic SDK` · `Stripe` · `Sentry` · `Resend` · `Vercel` · `Railway`
 
 ---
 
